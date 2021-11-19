@@ -1,0 +1,7 @@
+{
+  "name": "pfsw",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
