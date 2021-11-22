@@ -1,0 +1,42 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button default-href="tabs/character"></ion-back-button>
+      </ion-buttons>
+    <ion-title>Descripcion</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <h1>
+    {{character.name}}
+  </h1>
+  <ion-card>
+    <ion-item>
+      <ion-icon name = "skull" slot = "start"></ion-icon>
+      <ion-label>{{character.status}}</ion-label>
+    </ion-item>
+    <ion-card-content>
+      <ion-grid>
+        <ion-row>
+          <ion-col>
+            <p>Especie</p>
+            <p>{{character.species}}</p>
+          </ion-col>
+          <ion-col>
+            <p>Genero</p>
+            <p>{{character.gender}}</p>
+          </ion-col>
+          <ion-col>
+            <p>Imagen</p>
+            <p>{{character.image}}</p>
+          </ion-col>
+          <ion-col>
+            <p>Origen</p>
+            <p>{{character.origin}}</p>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-card-content>
+  </ion-card>
+  </ion-content>
